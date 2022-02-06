@@ -1,0 +1,13 @@
+value_str = input("Enter your value (STR): ")
+value_int = int(input("Enter your value (INT):"))
+value_float = float(input("Enter your value (FLOAT):"))
+
+print("\n")
+print(f"STR: {value_str}")
+print(type(value_str))
+print("\n")
+print(f"INT: {value_int}")
+print(type(value_int))
+print("\n")
+print(f"FLOAT: {value_float}")
+print(type(value_float))
