@@ -7,8 +7,8 @@ my_mustang = {
 }
 
 my_mercedes = {
-    "brand": "Ford",
-    "model": "Mustang",
+    "brand": "Mercedes",
+    "model": "S",
     "year": 1969,
     "good_condition": True,
 }
@@ -22,7 +22,7 @@ print(my_mustang.values())
 
 my_mustang["year"] = 2020
 my_mustang.update({"year": 1999, "good_condition": False})
-my_mustang["other_cars"] = [my_mercedes, my_mercedes]
+# my_mustang["other_cars"] = [my_mercedes, my_mercedes]
 pprint(my_mustang)
 
 cars = [my_mustang, my_mercedes]

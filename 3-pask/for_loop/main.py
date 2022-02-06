@@ -6,7 +6,7 @@ my_mustang = {
     "year": 1969,
     "good_condition": True,
 }
-
+print(type(my_mustang))
 for car in german_cars:
     print(car)
 
