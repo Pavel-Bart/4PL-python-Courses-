@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917e6c76-2b48-4512-95d7-eb797e62e8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.10/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.11/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.12/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.13/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.14/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.15/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.3/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.5/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.6/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.7/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.8/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/exercises/ex.9/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/functions/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/libraries/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/modules/calculations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-pask/modules/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/4PL-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/4PL-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-pask/klases/human.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-pask/klases/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-pask/klases/student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-pask/dictionary/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-pask/dictionary/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-pask/for_loop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-pask/for_loop/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +44,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.main (5)">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="coffee_maker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="4PL-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-pask/project-cofee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5-pask/project-cofee/coffee_maker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,53 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4-pask/exercises/ex.10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-pask/project-cofee" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-pask/exercises/ex.10/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="4PL-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4-pask/exercises/ex.11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-pask/exercises/ex.11/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="4PL-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4-pask/exercises/ex.13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-pask/exercises/ex.13/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5-pask/project-cofee/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,13 +129,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="4PL-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-pask/klases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5-pask/klases/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.coffee_maker" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main (5)" />
         <item itemvalue="Python.main (4)" />
-        <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
