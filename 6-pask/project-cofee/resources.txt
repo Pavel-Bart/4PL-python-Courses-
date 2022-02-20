@@ -1,0 +1,3 @@
+Water: 500ml
+Milk: 500ml
+Coffee: 120g

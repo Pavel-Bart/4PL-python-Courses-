@@ -20,6 +20,8 @@ while is_on:
         money_machine.report()
     elif choice == "refill":
         coffee_maker.refill_ingredients()
+    elif choice == "export":
+        coffee_maker.export()
     else:
         drink = menu.find_drink(choice)
 

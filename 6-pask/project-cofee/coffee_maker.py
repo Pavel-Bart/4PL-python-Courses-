@@ -21,6 +21,17 @@ class CoffeeMaker:
         print(f"Milk: {self.resources['milk']}ml")
         print(f"Coffee: {self.resources['coffee']}g")
 
+    def export(self):
+        """ saves a report of all resources to file """
+        file = open("resources.txt", mode="w")
+
+        file.write(f"Water: {self.resources['water']}ml\n")
+        file.write(f"Milk: {self.resources['milk']}ml\n")
+        file.write(f"Coffee: {self.resources['coffee']}g")
+
+        file.close()
+        print("Successfully printed to file!")
+
     def is_resources_sufficient(self, drink: MenuItem):
         """ Return true when order can be made, False if ingredients are sufficient """
         can_make = True
