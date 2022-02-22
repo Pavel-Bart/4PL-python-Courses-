@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917e6c76-2b48-4512-95d7-eb797e62e8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/8-pask/Birthday_wisher/letters/letters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/Birthday_wisher/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/Birthday_wisher/names/names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/First/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/First/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-1/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-10/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-10/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-11/data1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-11/data2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-11/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-12/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-2/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-3/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-3/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-4/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-5/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-5/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-6/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-6/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-7/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-7/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-8/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-8/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-9/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-pask/exercises/ex-9/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-pask/To-do-list/inprogress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-pask/To-do-list/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-pask/To-do-list/to-do.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-pask/To-do-list/todo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/4PL-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/4PL-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-pask/project-cofee/coffee_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-pask/project-cofee/coffee_maker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-pask/project-cofee/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-pask/project-cofee/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +43,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/8-pask/exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/9-pask/To-do-list" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\9-pask\To-do-list" />
       <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\8-pask\exercises" />
       <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\8-pask\exercises\ex-1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (3)">
+    <configuration name="inprogress" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8-pask/exercises/ex-5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-pask/To-do-list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-pask/exercises/ex-5/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-pask/To-do-list/inprogress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8-pask/exercises/ex-12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-pask/To-do-list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-pask/exercises/ex-12/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-pask/To-do-list/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8-pask/exercises/ex-2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8-pask/exercises/ex-3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-pask/exercises/ex-2/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-pask/exercises/ex-3/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="to-do" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +146,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8-pask/exercises/ex-9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-pask/To-do-list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-pask/exercises/ex-9/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-pask/To-do-list/to-do.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (4)" />
-        <item itemvalue="Python.main (5)" />
         <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.inprogress" />
+        <item itemvalue="Python.to-do" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
