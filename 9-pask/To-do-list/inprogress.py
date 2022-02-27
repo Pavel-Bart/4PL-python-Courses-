@@ -1,3 +1,4 @@
+# inprogress file tasks
 import os
 
 
@@ -7,7 +8,7 @@ class InProgress:
         self.tasks = []
 
     def check(self):
-        """ Checks if file exist. If it's not tha mean that no task is in progress."""
+        """ Checks if file exist. If it's not that means that no task is in progress."""
         if os.path.exists("inprogress.txt"):
             return True
         else:
@@ -27,16 +28,28 @@ class InProgress:
             if choice == "Yes":
                 os.remove("inprogress.txt")
 
+                with open("done.txt", "r") as f:
+                    lines = f.read().strip()
+                with open("done.txt", "w") as f:
+                    f.write(lines)
+                    f.write(f"\n{task}")
+
                 is_on = False
 
             elif choice == "Stop":
                 os.remove("inprogress.txt")
-                with open("to-do.txt", "a") as f:
+
+                with open("to-do.txt", "r") as f:
+                    lines = f.readlines()
+                with open("to-do.txt", "w") as f:
+                    for line in lines:
+                        f.write(line)
                     f.write(task)
+
                 is_on = False
             elif choice == "No":
-                pass
+                is_on = False
             else:
-                pass
+                print("There is no such option")
 
 

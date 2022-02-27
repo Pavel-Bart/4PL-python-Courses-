@@ -1,23 +1,30 @@
 from todo import ToDo
 from inprogress import InProgress
+from menu import Menu
+
 
 inprogress = InProgress()
 todo = ToDo()
+menu = Menu()
 
 is_on = True
 
 while is_on:
-    if inprogress.check() is True:
+
+    options = todo.get_items()
+    options = options[:-1]
+    choice = input(f"Choose task ({options}): ")
+
+    if choice == "off":
+        is_on = False
+    elif choice == "report":
+        menu.report()
+    elif inprogress.check() is True:
+        print("You can't start another task until you finish this one.")
         inprogress.progress_task()
     else:
-        options = todo.get_items()
-        options = options[:-1]
-        choice = input(f"Choose task ({options}): ")
+        task = todo.find_task(choice)
 
-        if choice == "off":
-            is_on = False
-        else:
-            task = todo.find_task(choice)
-
-            todo.start_task(task)
+        menu.prepare_task(task)
+        inprogress.progress_task()
 

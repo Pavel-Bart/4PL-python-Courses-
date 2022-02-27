@@ -1,4 +1,4 @@
-
+# to-do file tasks
 class ToDoItem:
     """ Models each ToDo Item """
 
@@ -28,19 +28,6 @@ class ToDo:
         for item in self.tasks:
             if item == task:
                 return item
-
-    def start_task(self, task):
-        """ Adds task to inprogress file and deletes it from ToDo file"""
-
-        f = open("inprogress.txt", "w")
-        f.write(task)
-        f.close()
-
-        with open("to-do.txt", "r") as f:
-            lines = f.readlines()
-        with open("to-do.txt", "w") as f:
-            for line in lines:
-                if line.strip("\n") != task:
-                    f.write(line)
+        print("! No suh task.")
 
 
