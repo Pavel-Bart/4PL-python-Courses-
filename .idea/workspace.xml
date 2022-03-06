@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917e6c76-2b48-4512-95d7-eb797e62e8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/9-pask/To-do-list/done.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-pask/To-do-list/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/letters/letters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/names/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/output/letter-name-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/send_sundays/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/send_sundays/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-pask/smtp/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-pask/To-do-list/inprogress.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-pask/To-do-list/inprogress.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-pask/To-do-list/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-pask/To-do-list/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-pask/To-do-list/to-do.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9-pask/To-do-list/to-do.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-pask/To-do-list/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-pask/To-do-list/todo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,38 +52,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11-pask" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\11-pask" />
       <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\9-pask\To-do-list" />
       <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\8-pask\exercises" />
       <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\8-pask\exercises\ex-1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\11-pask\smtp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main (3)">
-    <configuration name="inprogress" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="4PL-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-pask/To-do-list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-pask/To-do-list/inprogress.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (5)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3-pask/dictionary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-pask/datetime_module" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-pask/dictionary/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-pask/datetime_module/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-pask/To-do-list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11-pask/send_sundays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-pask/To-do-list/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11-pask/send_sundays/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-pask/To-do-list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4-pask/modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-pask/To-do-list/menu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-pask/modules/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="to-do" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +138,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-pask/To-do-list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11-pask/Auto_birthday_wisher" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-pask/To-do-list/to-do.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11-pask/Auto_birthday_wisher/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="4PL-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11-pask/smtp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11-pask/smtp/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.inprogress" />
-        <item itemvalue="Python.menu" />
+        <item itemvalue="Python.main (5)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.to-do" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
