@@ -24,6 +24,8 @@ my_mustang["year"] = 2020
 my_mustang.update({"year": 1999, "good_condition": False})
 # my_mustang["other_cars"] = [my_mercedes, my_mercedes]
 pprint(my_mustang)
-
+print()
 cars = [my_mustang, my_mercedes]
-pprint(cars)
+for item in cars:
+    print(item.keys())
+
