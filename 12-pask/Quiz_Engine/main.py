@@ -6,10 +6,10 @@ question = Question()
 is_on = True
 
 while is_on:
-    choice = input(f"Start quiz? (Yes/No): ")
+    choice = input(f"Start new quiz?(Yes/No): ")
 
     if choice == "Yes":
-        pass
+        question.rand()
     else:
         is_on = False
 

@@ -16,23 +16,34 @@ class QuestionItem:
 class Question:
 
     def __init__(self):
+        self.questions = []
         for item in question_data:
-            print(item["category"])
-        self.questions =[
+            self.questions.append(QuestionItem(category=item["category"], type=item["type"],
+                                               difficulty=item["difficulty"], question=item["question"],
+                                               correct_answer=item["correct_answer"],
+                                               incorrect_answers=item["incorrect_answers"]))
 
-            QuestionItem(category="Science: Computers",type="boolean",difficulty="medium",
-                         question="The HTML5 standard was published in 2014.",correct_answer="True",incorrect_answers=["False"]),
-            QuestionItem(category="Science: Computers", type="boolean", difficulty="medium",
-                         question="The HTML5 standard was published in 2014.", correct_answer="True",
-                         incorrect_answers=["False"]),
-            QuestionItem(category="Science: Computers", type="boolean", difficulty="medium",
-                         question="The HTML5 standard was published in 2014.", correct_answer="True",
-                         incorrect_answers=["False"])
-        ]
+
+
+        # self.questions = [
+        #
+        #     QuestionItem(category="Science: Computers",type="boolean",difficulty="medium",
+        #                  question="The HTML5 standard was published in 2014.",correct_answer="True",incorrect_answers=["False"]),
+        #     QuestionItem(category="Science: Computers", type="boolean", difficulty="medium",
+        #                  question="The HTML5 standard was published in 2014.", correct_answer="True",
+        #                  incorrect_answers=["False"]),
+        #     QuestionItem(category="Science: Computers", type="boolean", difficulty="medium",
+        #                  question="The HTML5 standard was published in 2014.", correct_answer="True",
+        #                  incorrect_answers=["False"])
+        #]
 
     def ask_questions(self):
         for item in self.questions:
             print(item.question)
             answer = (input(f"Answer(True/False): "))
+
+    def rand(self):
+        for item in self.questions:
+            print(f"{item.question}\n")
 
 

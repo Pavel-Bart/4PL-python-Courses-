@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917e6c76-2b48-4512-95d7-eb797e62e8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/question.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/4PL-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/4PL-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-pask/dictionary/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-pask/dictionary/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-pask/Quiz_Engine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-pask/Quiz_Engine/question.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/question.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +193,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
