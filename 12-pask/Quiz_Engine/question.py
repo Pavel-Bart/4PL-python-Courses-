@@ -13,18 +13,11 @@ class QuestionItem:
             self.incorrect_answers = incorrect_answers
 
 
-class Question:
+class QuestionBank:
 
-    def __init__(self):
-        self.questions = []
-        for item in question_data:
-            self.questions.append(QuestionItem(category=item["category"], type=item["type"],
-                                               difficulty=item["difficulty"], question=item["question"],
-                                               correct_answer=item["correct_answer"],
-                                               incorrect_answers=item["incorrect_answers"]))
-
-
-
+    def __init__(self, formed_questions):
+        self.questions = formed_questions
+        self.points = 0
         # self.questions = [
         #
         #     QuestionItem(category="Science: Computers",type="boolean",difficulty="medium",
@@ -37,13 +30,21 @@ class Question:
         #                  incorrect_answers=["False"])
         #]
 
-    def ask_questions(self):
+    def ask_check(self):
+        """ Prints the questions and checks the answers, if corrects adds point """
+        self.points = 0
+
         for item in self.questions:
-            print(item.question)
+
+            print(item.question[0].upper() + item.question[1:])
             answer = (input(f"Answer(True/False): "))
 
-    def rand(self):
-        for item in self.questions:
-            print(f"{item.question}\n")
+            if item.correct_answer == answer.capitalize():
+                self.points += 1
+
+    def score(self):
+        """ Prints the score """
+        print(f"Score: {self.points} from {len(self.questions)} are correct")
+
 
 

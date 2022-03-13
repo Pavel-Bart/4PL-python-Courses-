@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917e6c76-2b48-4512-95d7-eb797e62e8fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/login.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/4PL-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/4PL-python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-pask/smtp/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/11-pask/smtp/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12-pask/Quiz_Engine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12-pask/Quiz_Engine/question.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-pask/Quiz_Engine/question.py" afterDir="false" />
     </list>
@@ -57,7 +60,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main (3)">
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +68,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11-pask/send_sundays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12-pask/Quiz_Engine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11-pask/send_sundays/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12-pask/Quiz_Engine/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,10 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.login" />
         <item itemvalue="Python.question" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (5)" />
-        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,5 +196,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
