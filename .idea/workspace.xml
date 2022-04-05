@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917e6c76-2b48-4512-95d7-eb797e62e8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/19-pask/First/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-pask/demo_app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-pask/register_from/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-pask/register_from/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-pask/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-pask/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong-Prjct/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/17.18-PingPong-Prjct/ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong-Prjct/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/17.18-PingPong-Prjct/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong-Prjct/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/17.18-PingPong-Prjct/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong-Prjct/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/17.18-PingPong-Prjct/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-pask/register_from/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask/register_from/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-pask/register_from/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask/register_from/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
       <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\11-pask\smtp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (4)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PingPong-Prjct" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20-pask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PingPong-Prjct/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20-pask/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (5)" />
       </list>
     </recent_temporary>
   </component>
