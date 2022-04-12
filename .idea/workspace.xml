@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917e6c76-2b48-4512-95d7-eb797e62e8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/20-pask/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20-pask/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-pask/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-pask/register_from/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask/register_from/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-pask/register_from/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask/register_from/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-pask/First/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-pask_Turtle/First/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-pask/keys/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-pask_Turtle/keys/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-pask/turtle-race/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-pask_Turtle/turtle-race/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-pask/turtle-race/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/14-pask_Turtle/turtle-race/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-pask/First/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask_TKinter/First/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-pask/demo_app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask_TKinter/demo_app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-pask/register_from/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask_TKinter/register_from/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-pask/register_from/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19-pask_TKinter/register_from/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,28 +61,7 @@
       <recent name="C:\Users\Admin\Documents\GitHub\4PL-python\11-pask\smtp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (4)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="4PL-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19-pask/First" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19-pask/First/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (5)">
     <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,6 +125,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="4PL-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21-pask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21-pask/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4PL-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (5)" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
