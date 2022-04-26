@@ -1,0 +1,4 @@
+{"Email": "asd", "Password": "gdvfbd"}
+{"Email": "asd", "Password": "gdvfbd"}
+{"Email": "somethin@gmail.com", "Password": "DEF"}
+{"Email": "ewrwer", "Password": "uhzuz"}

@@ -3,6 +3,7 @@ from question import QuestionItem
 from data import question_data
 from login import Login
 
+print(question_data)
 formed_questions = []
 for item in question_data:
     formed_questions.append(QuestionItem(category=item["category"], type=item["type"],

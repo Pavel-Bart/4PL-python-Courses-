@@ -17,6 +17,7 @@ class QuestionBank:
 
     def __init__(self, formed_questions):
         self.questions = formed_questions
+        print(formed_questions)
         self.points = 0
         # self.questions = [
         #

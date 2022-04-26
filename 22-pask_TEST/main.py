@@ -1,4 +1,8 @@
 from tkinter import *
+import json
+from user import User
+
+#user = User()
 
 window = Tk()
 window.title("Hash")
@@ -16,7 +20,10 @@ password_entry.grid(column=1, row=1)
 
 
 def checkbox_used():
-    password_entry.config(text="")
+    if check_state.get() == 1:
+        password_entry.config(text="Auto")
+    elif check_state.get() == 0:
+        password_entry.config(text="")
     window.update()
 
 
@@ -36,12 +43,74 @@ radio_button_2.grid(column=1, row=3)
 
 
 def hash_clicked():
-    #cezar shifr
-    print(check_state.get())
-    print(radio_state.get())
+    email = email_entry.get()
+    password = password_entry.get()
+
+    if len(email) > 0 and len(password)> 0:
+
+        split_pass = list(password)
+        new_password = ""
+        for item in split_pass:
+            str = ""
+
+            if ord(item) > 64 and ord(item) < 91:
+                str = ord(item)+3
+                if str > 90:
+                    str = str-25
+                str = chr(str)
+
+            if ord(item) > 96 and ord(item) < 123:
+                str = ord(item)+3
+                if str > 122:
+                    str = str-25
+                str = chr(str)
+
+            new_password = new_password + str
 
 
-button_start = Button(text="Hash", command=hash_clicked, width=10, font=("Arial", 14, "bold"))
-button_start.grid(column=0, row=5)
+        my_user = {
+            "Email": email,
+            "Password": new_password,
+        }
+
+        with open("data.txt", "a") as file:
+            file.write(f"{json.dumps(my_user)}\n")
+
+
+button_hash = Button(text="Hash", command=hash_clicked, width=10, font=("Arial", 14, "bold"))
+button_hash.grid(column=0, row=5)
+
+
+#-----------------------
+show_email_label = Label(text="Email:", font=("Arial", 16, "bold"))
+show_email_label.grid(column=3, row=3)
+show_email_entry = Entry(width=25, font=("Arial", 16))
+show_email_entry.grid(column=4, row=3)
+
+
+def unhash_clicked():
+    All_users = []
+    with open("data.txt") as file:
+        data = file.read()
+        data = data.strip()
+        data = data.split("\n")
+        print(data)
+        for item in data:
+            js = json.loads(item)
+            All_users.append(js)# error nes tuscia eilute nereikalinga
+
+    for item in All_users:
+        if item["Email"] == show_email_entry.get():
+            show_password_text.config(text=item["Password"])
+
+
+
+button_unhash = Button(text="UnHash&Show", command=unhash_clicked, width=12, font=("Arial", 14, "bold"))
+button_unhash.grid(column=4, row=4)
+
+show_password_label = Label(text="Password:", font=("Arial", 16, "bold"))
+show_password_label.grid(column=3, row=5)
+show_password_text = Label(text=".", font=("Arial", 16, "bold"))
+show_password_text.grid(column=4, row=5)
 
 window.mainloop()
