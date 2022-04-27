@@ -1,0 +1,4 @@
+{"Email": "something@gmail.com", "Password": "DEF"}
+{"Email": "random@gmail.com", "Password": "de12DE"}
+{"Email": "generateTest", "Password": ":*i!h$?:Dw:n"}
+{"Email": "random", "Password": "DEFG"}
