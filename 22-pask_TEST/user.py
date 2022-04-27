@@ -25,7 +25,7 @@ class User:
             for item in data:
                 js = json.loads(item)
                 self.users.append(js)
-            print(self.users)
+
 
     def hash_and_add_to_list(self, email, password):
         """Hashes password and writes user to file"""
@@ -95,7 +95,3 @@ class User:
             characters = string.digits
             password = ''.join(random.choice(characters) for i in range(12))
         return password
-# https://geekflare.com/password-generator-python-code/
-
-
-
