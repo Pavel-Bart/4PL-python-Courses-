@@ -1,6 +1,7 @@
 from database import Base
 from sqlalchemy import Column, String, Integer, ForeignKey, Boolean, DATE, Float, DateTime
 from sqlalchemy.orm import relationship
+from datetime import datetime
 
 
 class User(Base):
@@ -14,6 +15,8 @@ class User(Base):
 
     settings_id = Column(Integer, ForeignKey('settings.id'))
     settings = relationship('UserSettings', back_populates='owner')
+
+    car = relationship('Car', back_populates='user', uselist=False)
 
 
 class UserSettings(Base):
@@ -32,6 +35,8 @@ class CarBrand(Base):
 
     models = relationship('Model', back_populates='brand')
 
+    car = relationship('Car', back_populates='brand', uselist=False)
+
 
 class Model(Base):
     __tablename__ = "models"
@@ -41,4 +46,33 @@ class Model(Base):
     brand_id = Column(Integer, ForeignKey("brands.id"))
     brand = relationship("CarBrand", back_populates="models")
 
+    car = relationship('Car', back_populates='model', uselist=False)
+
+
+class Car(Base):
+    __tablename__ = "cars"
+
+    id = Column(Integer, primary_key=True, index=True)
+
+    useer_id = Column(Integer, ForeignKey("users.id"))
+    user = relationship("User", back_populates="car")
+
+    brand_id = Column(Integer, ForeignKey("brands.id"))
+    brand = relationship("CarBrand", back_populates="car")
+
+    model_id = Column(Integer, ForeignKey('models.id'))
+    model = relationship('Model', back_populates='car')
+
+    record = relationship('MileageRecord', back_populates='car')
+
+
+class MileageRecord(Base):
+    __tablename__ = "records"
+
+    id = Column(Integer, primary_key=True, index=True)
+    record = Column(Float)
+    CreatedAt = datetime.now()
+
+    car_id = Column(Integer, ForeignKey("cars.id"))
+    car = relationship('Car', back_populates='record')
 

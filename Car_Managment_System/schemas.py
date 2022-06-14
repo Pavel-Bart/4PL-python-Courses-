@@ -64,3 +64,34 @@ class CarBrandAll(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+class RecordCreate(BaseModel):
+    record: float
+    CreatedAt: str
+
+
+class RecordAll(BaseModel):
+    id: int
+    record: float
+    CreatedAt: str
+
+    class Config:
+        orm_mode = True
+
+
+class CarCreate(BaseModel):
+    user: UserCreate
+    brand: CarBrandCreate
+    model: ModelCreate
+
+
+class CarAll(BaseModel):
+    user: UserAll
+    brand: CarBrandAll
+    model: ModelAll
+
+    record: List[RecordAll] = []
+
+    class Config:
+        orm_mode = True
