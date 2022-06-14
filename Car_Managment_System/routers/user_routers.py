@@ -4,40 +4,22 @@ from database import get_db
 from typing import List
 import models
 import schemas
-#from repository import _repository as repo
+from repository import user_repository as repo
 
 router = APIRouter(
     prefix='/api/user',
     tags=['Users']
 )
 
-@router.post('/userCreate')
+
+@router.post('/Create')
 def create_user(request: schemas.UserCreate, db: Session = Depends(get_db)):
-
-    new_settings = models.UserSettings(
-        Consumption=request.settings.Consumption,
-        Odometer=request.settings.Odometer
-    )
-    db.add(new_settings)
-    db.commit()
-    db.refresh(new_settings)
-
-    new_user = models.User(
-        first_name=request.first_name,
-        last_name=request.last_name,
-        email=request.email,
-        settings_id=new_settings.id,
-    )
-    db.add(new_user)
-    db.commit()
-    db.refresh(new_user)
-
-    return new_user
+    return repo.create(request, db)
 
 
-@router.get('/getAll1', response_model=List[schemas.UserAll])
+@router.get('/Get', response_model=List[schemas.UserAll])
 def all(db: Session = Depends(get_db)):
-    return db.query(models.User).all()
+    return repo.get_all_users(db)
 
 
 @router.get('/getAll2')
@@ -45,3 +27,13 @@ def all_users(db: Session = Depends(get_db)):
 
     return db.query(models.User) \
         .join(models.UserSettings).options(selectinload(models.User.settings)).all()
+
+
+@router.put('/Update/{id}')
+def update(id: int, request: schemas.UserUpdate, db: Session = Depends(get_db)):
+    return repo.update(id, request, db)
+
+
+@router.delete('/Delete/{id}')
+def delete(id: int, db: Session = Depends(get_db)):
+    return repo.delete(id, db)

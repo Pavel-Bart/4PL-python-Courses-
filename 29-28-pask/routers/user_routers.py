@@ -20,7 +20,6 @@ def all(db: Session = Depends(get_db)):
 
 @router.get('/{id}', response_model=schemas.HumanShortGetInfoSchema)
 def get_single_by_id(id: int, db: Session = Depends(get_db)):
-
     return repo.get_single_by_id(id, db)
 
 

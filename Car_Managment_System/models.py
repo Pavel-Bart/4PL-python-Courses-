@@ -24,3 +24,21 @@ class UserSettings(Base):
 
     owner = relationship('User', back_populates='settings', uselist=False)
 
+
+class CarBrand(Base):
+    __tablename__ = "brands"
+    id = Column(Integer, primary_key=True, index=True)
+    brand_name = Column(String)
+
+    models = relationship('Model', back_populates='brand')
+
+
+class Model(Base):
+    __tablename__ = "models"
+    id = Column(Integer, primary_key=True, index=True)
+    model = Column(String)
+
+    brand_id = Column(Integer, ForeignKey("brands.id"))
+    brand = relationship("CarBrand", back_populates="models")
+
+

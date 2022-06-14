@@ -8,6 +8,12 @@ class UserSettingsCreate(BaseModel):
     Odometer: float
 
 
+class UserUpdate(BaseModel):
+    first_name: str
+    last_name: str
+    email: str
+
+
 class UserCreate(BaseModel):
     first_name: str
     last_name: str
@@ -34,3 +40,27 @@ class UserAll(BaseModel):
     class Config:
         orm_mode = True
 
+
+class CarBrandCreate(BaseModel):
+    brand_name: str
+
+
+class ModelCreate(BaseModel):
+    model: str
+
+
+class ModelAll(BaseModel):
+    id: int
+    model: str
+
+    class Config:
+        orm_mode = True
+
+
+class CarBrandAll(BaseModel):
+    id: int
+    brand_name: str
+    models: List[ModelAll] = []
+
+    class Config:
+        orm_mode = True
